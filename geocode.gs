@@ -7,4 +7,5 @@ for (var i = 0; i < response.results.length; i++) {
   Logger.log('%s: %s, %s', result.formatted_address, result.geometry.location.lat,
       result.geometry.location.lng);
       return result.geometry.location.lat+","+result.geometry.location.lng;
-}}
+}
+} 
