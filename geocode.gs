@@ -9,3 +9,4 @@ for (var i = 0; i < response.results.length; i++) {
       return result.geometry.location.lat+","+result.geometry.location.lng;
 }
 } 
+ 
